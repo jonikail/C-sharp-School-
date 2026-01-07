@@ -9,7 +9,7 @@
 
 ## 0️⃣ BAZELE PROGRAMĂRII (Fundamente)
 
-1. 🔴 Ce este programarea, ce este C#
+1. 🟢 Ce este programarea, ce este C#
     
 2. 🔴 .NET & .NET SDK (ce este CLR, runtime)
     
@@ -26,66 +26,66 @@
 
 ## 1️⃣ CONTROLUL FLUXULUI
 
-7. 🔴 `if / else`
+7. 🟢 `if / else`
     
-8. 🔴 `switch`
+8. 🟢 `switch`
     
-9. 🔴 Bucla `for` , foreach
+9. 🟢 Bucla `for` , foreach
     
-10. 🔴 Bucla `while`
+10. 🟢 Bucla `while`
     
-11. 🔴 Bucla `do-while`
+11. 🟠 Bucla `do-while`
     
-12. 🔴 `break` & `continue`
+12. 🟠 `break` & `continue`
     
 
 ---
 
 ## 2️⃣ METODE & FUNCȚII
 
-13. 🔴 Ce este o metodă
+13. 🟢 Ce este o metodă
     
-14. 🔴 Parametri & valori returnate
+14. 🟢 Parametri & valori returnate
     
-15. 🔴 `void` vs `return`
+15. 🟢 `void` vs `return`
     
-16. 🔴 `static`
+16. 🟠 `static`
     
-17. 🔴 Supraincărcarea metodelor
+17. 🟠 Supraincărcarea metodelor
     
-18. 🔴 `ref`, `out`, `params`
+18. 🟠 `ref`, `out`, `params`
     
 
 ---
 
 ## 3️⃣ TIPURI DE DATE COMPLEXE
 
-19. 🔴 `string` (metode importante)
+19. 🟠 `string` (metode importante)
     
-20. 🔴 `DateTime`
+20. 🟠 `DateTime`
     
-21. 🔴 `TimeSpan`
+21. 🟠 `TimeSpan`
     
-22. 🔴 `Enum`
+22. 🟠 `Enum`
     
-23. 🔴 Structuri (`struct`)
+23. 🟠 Structuri (`struct`)
     
 
 ---
 
 ## 4️⃣ COLECȚII (FOARTE IMPORTANT)
 
-24. 🔴 Array-uri
+24. 🟠 Array-uri
     
-25. 🔴 `List<T>`
+25. 🟠 `List<T>`
     
-26. 🔴 `Dictionary<TKey, TValue>`
+26. 🟠 `Dictionary<TKey, TValue>`
     
-27. 🔴 `Queue<T>`
+27. 🟠 `Queue<T>`
     
-28. 🔴 `Stack<T>`
+28. 🟠 `Stack<T>`
     
-29. 🔴 `HashSet<T>`
+29. 🟠 `HashSet<T>`
     
 
 ---

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp structuri de date.md",
+                "file": "Sintax C-sharp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Csharp structuri de date"
+              "title": "Sintax C-sharp"
             }
           },
           {
@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,7 +196,7 @@
       "bases:Create new base": false
     }
   },
-  "active": "ae36f2ab20332e66",
+  "active": "b9aa861d7b7b5545",
   "lastOpenFiles": [
     "Csharp structuri de date.md",
     "Exercitii Csharp.md",

@@ -10,7 +10,7 @@ Creează o **listă de numere întregi**. Adaugă 5 valori de la tastatură și 
 
 ---
 
-### **Problema 3 – `Dictionary<TKey, TValue>**`
+### **Problema 3 – `Dictionary<TKey, TValue>`
 
 Creează un **dicționar** care stochează ID-ul unui elev (int) și numele lui (string).  
 Afișează numele elevului cu ID-ul citit de la tastatură.

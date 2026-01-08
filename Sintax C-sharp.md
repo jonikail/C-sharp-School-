@@ -75,17 +75,17 @@
 
 ## 4️⃣ COLECȚII (FOARTE IMPORTANT)
 
-24. 🟠 Array-uri
+24. 🟢 Array-uri
     
-25. 🟠 `List<T>`
+25. 🟢 `List<T>`
     
-26. 🟠 `Dictionary<TKey, TValue>`
+26. 🟢 `Dictionary<TKey, TValue>`
     
-27. 🟠 `Queue<T>`
+27. 🟢 `Queue<T>`
     
-28. 🟠 `Stack<T>`
+28. 🟢 `Stack<T>`
     
-29. 🟠 `HashSet<T>`
+29. 🟢 `HashSet<T>`
     
 
 ---

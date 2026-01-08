@@ -15,9 +15,9 @@
 - **Când se folosește:** Când ai nevoie să adaugi sau să ștergi elemente frecvent.
   Exemplu:
 
-  ```cs
-  List<string> nume = new List<string> { "Ana", "Ion" };
-	nume.Add("Maria");
+```cs
+List<string> nume = new List<string> { "Ana", "Ion" };
+nume.Add("Maria");
   ```
   
 ### 3. **`Dictionary<TKey, TValue>`**
@@ -41,7 +41,9 @@ Dictionary<int, string> studenti = new Dictionary<int, string>(); studenti[1] = 
 - **Exemplu:**
     
 ```cs
-Queue<int> coada = new Queue<int>(); coada.Enqueue(10); coada.Dequeue();
+Queue<int> coada = new Queue<int>(); 
+coada.Enqueue(10); 
+coada.Dequeue();
 ```
 
 ---
@@ -55,7 +57,9 @@ Queue<int> coada = new Queue<int>(); coada.Enqueue(10); coada.Dequeue();
 - **Exemplu:**
     
 ```cs
-Stack<string> stiva = new Stack<string>(); stiva.Push("A"); stiva.Pop();
+Stack<string> stiva = new Stack<string>(); 
+stiva.Push("A"); 
+stiva.Pop();
 ```
 
 ---
@@ -69,7 +73,8 @@ Stack<string> stiva = new Stack<string>(); stiva.Push("A"); stiva.Pop();
 - **Exemplu:**
     
 ```cs
-HashSet<int> valori = new HashSet<int>(); valori.Add(5);
+HashSet<int> valori = new HashSet<int>();
+valori.Add(5);
 ```
 
 ---

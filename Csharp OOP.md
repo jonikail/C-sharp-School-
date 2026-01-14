@@ -17,7 +17,7 @@ OOP se bazează pe **obiecte** care combină **datele** și **metodele** într-o
     
 - **Obiectul** = instanță a unei clase
 ---
-### **==Access Modifiers (Modificatori de Acces)==**
+### **==Modificatori de Acces (Access Modifiers)==**
 
 Access modifiers controlează **vizibilitatea** membrilor unei clase (câmpuri sau metode).
 
@@ -41,7 +41,7 @@ Access modifiers controlează **vizibilitatea** membrilor unei clase (câmpuri s
     - **set** – atribuie o valoare unui câmp (folosește cuvântul cheie `value`).
     
 Exemplu:
-   ```csharp
+```csharp
 class Person
 {
 	private string name; // câmp privat
@@ -52,20 +52,20 @@ class Person
 		set { name = value; }
 	}
 }
-    ```
+```
 Exista varianta prescurtata a codului de mai sus:
-  ```csharp
+```csharp
 class Person
 {
 	public string Name {get; set;}
 }
-	    ```
+```
 Apoi poți folosi proprietatea ca pe o variabilă:
-  ```csharp
+```csharp
 Person p = new Person();
 p.Name = "Ana";
 Console.WriteLine(p.Name);
-    ```
+```
 ---
 ### **==Moștenire în C# (Inheritance)==**
 
@@ -80,7 +80,7 @@ Console.WriteLine(p.Name);
 - O clasă `sealed` **nu poate fi moștenită**.
 
 Exemplu:
-  ```csharp
+```csharp
 public class Person
 {
 	public string Name; // cimp public
@@ -91,7 +91,7 @@ class Student : Person
 	public float Grade { get; set; }
 	 //Cimp private Grade cu geter si seter public
 }
-    ```
+```
     
 ```csharp
 Student student = new Student();
@@ -192,18 +192,16 @@ class Program
 **Clase abstracte**
 
 - O **clasă abstractă** nu poate fi folosită pentru a crea obiecte direct.
-    
 - Trebuie **moștenită** de o altă clasă pentru a fi folosită.
     
-- Poate conține:
-    
+Poate conține:
+	- Câmpuri
     - **Metode abstracte** (fără corp)
-        
-    - **Metode obișnuite** (cu implementare)
+	- **Metode obișnuite** (cu implementare)
+    
  **Metode abstracte**
 
 - Sunt declarate fără corp.
-    
 - Implementarea lor se face în **clasa derivată** (folosind `override`).
 
 Exemplu de abstracție:
@@ -211,33 +209,33 @@ Exemplu de abstracție:
 // Abstract class
 abstract class Animal
 {
-  // Abstract method (does not have a body)
-  public abstract void animalSound();
-  // Regular method
-  public void sleep()
-  {
-    Console.WriteLine("Zzz");
-  }
+	// Abstract method (does not have a body)
+	public abstract void animalSound();
+	// Regular method
+	public void sleep()
+	{
+		Console.WriteLine("Zzz");
+	}
 }
 
 // Derived class (inherit from Animal)
 class Pig : Animal
 {
-  public override void animalSound()
-  {
-    // The body of animalSound() is provided here
-    Console.WriteLine("The pig says: wee wee");
-  }
+	public override void animalSound()
+	{
+		// The body of animalSound() is provided here
+		Console.WriteLine("The pig says: wee wee");
+	}
 }
 
 class Program
 {
-  static void Main(string[] args)
-  {
-    Pig myPig = new Pig(); // Create a Pig object
-    myPig.animalSound();  // Call the abstract method
-    myPig.sleep();  // Call the regular method
-  }
+	static void Main(string[] args)
+	{
+		Pig myPig = new Pig(); // Create a Pig object
+		myPig.animalSound();  // Call the abstract method
+		myPig.sleep();  // Call the regular method
+	}
 }
 ```
 
@@ -247,7 +245,7 @@ class Program
     
 - Prin convenție, numele interfeței începe cu **„I”** (de exemplu `IAnimal`).
     
-- Membrii unei interfețe sunt **impliciti publici și abstracti**.
+- Membrii unei interfețe sunt **impliciți publici și abstracți**.
     
 - Nu poate conține **câmpuri** și nu poate fi instanțiată ca obiect.
     
@@ -259,25 +257,58 @@ class Program
 // Interface
 interface IAnimal 
 {
-  void animalSound(); // interface method (does not have a body)
+	void animalSound(); // interface method (does not have a body)
 }
 
 // Pig "implements" the IAnimal interface
 class Pig : IAnimal 
 {
-  public void animalSound() 
-  {
-    // The body of animalSound() is provided here
-    Console.WriteLine("The pig says: wee wee");
-  }
+public void animalSound() 
+	{
+		// The body of animalSound() is provided here
+			Console.WriteLine("The pig says: wee wee");
+	}
 }
 
 class Program 
 {
-  static void Main(string[] args) 
-  {
-    Pig myPig = new Pig();  // Create a Pig object
-    myPig.animalSound();
-  }
+	static void Main(string[] args) 
+	{
+		Pig myPig = new Pig();  // Create a Pig object
+		myPig.animalSound();
+	}
 }
 ```
+---
+
+### **==Operatorul is , as , typeof==**
+
+Operatorii `is` sau `typeof` sunt folosiți pentru a determina dacă obiectul `b` este de un anumit tip. 
+
+Exemplu:
+
+```csharp
+public class Base { }
+
+public class Derived : Base { }
+
+public static class Example
+{
+    public static void Main()
+    {
+        object b = new Base();
+        Console.WriteLine(b is Base);  // output: True
+        Console.WriteLine(b is Derived);  // output: False
+
+        object d = new Derived();
+        Console.WriteLine(d is Base);  // output: True
+        Console.WriteLine(d is Derived); // output: True
+        
+	    Console.WriteLine(b.GetType() == typeof(Base)); // output: False
+	    Console.WriteLine(b.GetType() == typeof(Derived)); // output: True
+    }
+}
+```
+---
+
+

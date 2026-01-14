@@ -3,7 +3,7 @@
 
 - Creează o **List tip Student cu 5-6 obiecte.
     
-- Folosește LINQ pentru a:
+- Folosește LINQ pentru a: 
     
     1. Lista studenții cu **nota mai mare de 8**.
         

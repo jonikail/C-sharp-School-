@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Csharp OOP.md",
+                "file": "_LINQ.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Csharp OOP"
+              "title": "_LINQ"
             }
           }
         ]
@@ -169,13 +169,18 @@
   },
   "active": "c8cbb73bd23cd918",
   "lastOpenFiles": [
-    "data_structures.md",
+    "_OOP.md",
+    "ex_http.md",
+    "ex_linq.md",
     "ex_data_structures.md",
+    "_SQL_GPT.md",
+    "_LINQ.md",
+    "_HTTP,API,REST API.md",
+    "_GIT BASH.md",
+    "_examples HTTP,API,REST,API.md",
+    "_DATA STRUCTURES.md",
+    "Road map csharp.md",
     "ex_oop.md",
-    "Csharp OOP.md",
-    "Sintax C-sharp.md",
-    "SQL_GPT.md",
-    "TASK-URI LINQ JUNIOR.md",
     "Csharp structuri de date.md",
     "Exercitii Csharp.md",
     "MAIN.md",

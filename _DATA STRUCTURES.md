@@ -1,25 +1,24 @@
-## 1. **`Array`**
+### 1. **`Array`**
+
 - Descriere: Colecție de elemente de același tip, cu dimensiune fixă.
 
 - **Când se folosește:** Când numărul de elemente este cunoscut și nu se schimbă.
   Exemplu:
+```csharp
+int[] numere = { 1, 2, 3, 4 };
+```
 
-  ```csharp
-	int[] numere = { 1, 2, 3, 4 };
-	  ```
+### 2. **`List<T>`**
 
-## 2. **`List<T>`**
-
-- ***Descriere:*** Colecție dinamică, dimensiunea se poate modifica.
-
-- **Când se folosește:** Când ai nevoie să adaugi sau să ștergi elemente frecvent.
-  Exemplu:
-
+ - **Descriere:** Colecție dinamică, dimensiunea se poate modifica.
+	
+ - **Când se folosește:** Când ai nevoie să adaugi sau să ștergi elemente frecvent.
+	Exemplu:
 ```cs
 List<string> nume = new List<string> { "Ana", "Ion" };
 nume.Add("Maria");
-  ```
-  
+```
+  ---
 ### 3. **`Dictionary<TKey, TValue>`**
 
 - **Descriere:** Stochează perechi cheie–valoare, cu acces rapid prin cheie.
@@ -32,6 +31,7 @@ nume.Add("Maria");
 Dictionary<int, string> studenti = new Dictionary<int, string>(); studenti[1] = "Alex";
 ```
 
+---
 ### 4. `Queue<T> (Coadă)`
 
 - **Descriere:** Funcționează pe principiul **FIFO** (primul intrat, primul ieșit).

@@ -78,7 +78,11 @@
             }
           }
         ],
+<<<<<<< HEAD
         "currentTab": 4
+=======
+        "currentTab": 1
+>>>>>>> 6f6576e (astonishing)
       }
     ],
     "direction": "vertical"
@@ -224,9 +228,27 @@
       "bases:Create new base": false
     }
   },
+<<<<<<< HEAD
   "active": "c8cbb73bd23cd918",
   "lastOpenFiles": [
     "Csharp OOP.md",
+=======
+  "active": "1b619365811e2045",
+  "lastOpenFiles": [
+    "ex_thread.md",
+    "_MULTITHREADING.md",
+    "_OOP.md",
+    "_DATA STRUCTURES.md",
+    "_examples HTTP,API,REST,API.md",
+    "_HTTP,API,REST API.md",
+    "_LINQ.md",
+    "ex_http.md",
+    "ex_linq.md",
+    "ex_data_structures.md",
+    "_SQL_GPT.md",
+    "_GIT BASH.md",
+    "Road map csharp.md",
+>>>>>>> 6f6576e (astonishing)
     "ex_oop.md",
     "Sintax C-sharp.md",
     "SQL_GPT.md",

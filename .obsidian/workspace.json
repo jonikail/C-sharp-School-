@@ -8,81 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3cddddc04e32bfdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sintax C-sharp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sintax C-sharp"
-            }
-          },
-          {
-            "id": "b9aa861d7b7b5545",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sintax C-sharp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Sintax C-sharp"
-            }
-          },
-          {
-            "id": "ae36f2ab20332e66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Exercitii Csharp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Exercitii Csharp"
-            }
-          },
-          {
-            "id": "28a5b8a424724026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Csharp OOP.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Csharp OOP"
-            }
-          },
-          {
             "id": "c8cbb73bd23cd918",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ex_oop.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ex_oop"
+              "title": "New tab"
             }
           }
-        ],
-<<<<<<< HEAD
-        "currentTab": 4
-=======
-        "currentTab": 1
->>>>>>> 6f6576e (astonishing)
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,41 +163,36 @@
       "bases:Create new base": false
     }
   },
-<<<<<<< HEAD
   "active": "c8cbb73bd23cd918",
   "lastOpenFiles": [
-    "Csharp OOP.md",
-=======
-  "active": "1b619365811e2045",
-  "lastOpenFiles": [
     "ex_thread.md",
-    "_MULTITHREADING.md",
-    "_OOP.md",
-    "_DATA STRUCTURES.md",
-    "_examples HTTP,API,REST,API.md",
-    "_HTTP,API,REST API.md",
-    "_LINQ.md",
-    "ex_http.md",
     "ex_linq.md",
-    "ex_data_structures.md",
+    "ex_http.md",
+    "_examples HTTP,API,REST,API.md",
     "_SQL_GPT.md",
+    "_OOP.md",
+    "_MULTITHREADING.md",
+    "_LINQ.md",
+    "_HTTP,API,REST API.md",
     "_GIT BASH.md",
+    "_DATA STRUCTURES.md",
     "Road map csharp.md",
->>>>>>> 6f6576e (astonishing)
-    "ex_oop.md",
+    "data_structures.md",
+    "TASK-URI LINQ JUNIOR.md",
     "Sintax C-sharp.md",
     "SQL_GPT.md",
+    "LINQ.md",
+    "GIT BUSH.md",
+    "Explicatie scurta Interfete Threads si API.md",
+    "ExercitiiPractice1.md",
+    "Documentatie  esentiala HTTP,API,REST API.md",
+    "Csharp OOP.md",
     "ex_data_structures.md",
-    "TASK-URI LINQ JUNIOR.md",
+    "ex_oop.md",
     "Csharp structuri de date.md",
     "Exercitii Csharp.md",
-    "MAIN.md",
-    "SQL.md",
-    "WPF C-sharp.md",
     "Untitled.canvas",
-    "2025-09-16.md",
     "Untitled 1.base",
-    "Untitled.base",
-    "Welcome.md"
+    "Untitled.base"
   ]
 }
